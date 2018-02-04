@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rocket Flyer Technology</title>
+    <link rel="stylesheet" href="css/style-480.css">
+    <link rel="stylesheet" href="css/style-900.css">
+    <link rel="stylesheet" href="css/style-1024.css">
+    <link rel="stylesheet" href="css/style-max.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-brand">
+                <img class="nav-brand-img" src="images/rocket.jpg" alt="ROCKET FLYER">
+                <p class="nav-brand-text">ROCKET FLYER</p>
+            </div>
+            <div class="nav-ops">
+                <span class="open-slide">
+                    <a href="#" onclick="openSideMenu()">
+                        <svg width="30" height="30">
+                            <path d="M0,5 30,5" stroke="#313131" stroke-width="5" />
+                            <path d="M0,14 30,14" stroke="#313131" stroke-width="5" />
+                            <path d="M0,23 30,23" stroke="#313131" stroke-width="5" />
+                        </svg>
+                    </a>
+                </span>
+                <ul class="nav-menu">
+                    <li>
+                        <a href="#banner">HOME</a>
+                    </li>
+                    <li>
+                        <a href="#about">ABOUT</a>
+                    </li>
+                    <li>
+                        <a href="#services">SERVICES</a>
+                    </li>
+                    <li>
+                        <a href="#whyus">WHY US</a>
+                    </li>
+                    <li>
+                        <a href="#getintouch">CONTACT US</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- SIDE NAV -->
+
+    <div class="side-nav" id="side-menu">
+        <a href="#" class="btn-close" onclick="closeSideMenu()">&times;</a>
+        <a href="#banner" onclick="closeSideMenu()">HOME</a>
+        <a href="#about" onclick="closeSideMenu()">ABOUT</a>
+        <a href="#services" onclick="closeSideMenu()">SERVICES</a>
+        <a href="#whyus" onclick="closeSideMenu()">WHY US</a>
+        <a href="#getintouch" onclick="closeSideMenu()">CONTACT US</a>
+    </div>
+
+    <div class="main">
+        <!-- BANNER -->
+
+        <div id="banner" class="text-center">
+            <h1>WE CREATE DIGITAL PRODUCTS
+                <br> AND SERVICES</h1>
+            <hr>
+            <p>Help you propel your business in a connedted world.</p>
+            <button id="request_quote">REQUEST A QUOTE</button>
+        </div>
+
+        <!-- SERVICES -->
+
+        <div id="services" class="text-center">
+            <h1 class="service-heading">Services we build for your Business</h1>
+            <p class="service-sub">We have awesome
+                <strong>features</strong> with
+                <strong>customizations</strong>
+            </p>
+
+
+            <!-- service-slide container -->
+            <div class="service-slide-container">
+
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade first">
+                    <div class="service-example">
+                        <img src="images/rocket.jpg" alt="MESSAGING SYSTEM" class="service-example-img">
+                        <h3 class="service-example-heading">MESSAGING SYSTEM</h3>
+                        <p class="service-example-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, sunt?</p>
+                    </div>
+                </div>
+
+                <div class="mySlides fade second">
+                    <div class="service-example">
+                        <img src="images/rocket.jpg" alt="ANALYTICS SERVICES" class="service-example-img">
+                        <h3 class="service-example-heading">ANALYTICS SERVICES</h3>
+                        <p class="service-example-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, ea.</p>
+                    </div>
+                </div>
+
+                <div class="mySlides fade third">
+                    <div class="service-example">
+                        <img src="images/rocket.jpg" alt="PAYMENT SYSTEMS" class="service-example-img">
+                        <h3 class="service-example-heading">PAYMENT SYSTEMS</h3>
+                        <p class="service-example-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, quis.</p>
+                    </div>
+                </div>
+
+                <div class="mySlides fade fourth">
+                    <div class="service-example">
+                        <img src="images/rocket.jpg" alt="WEB SYSTEMS" class="service-example-img">
+                        <h3 class="service-example-heading">WEB SYSTEMS</h3>
+                        <p class="service-example-para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta, at?</p>
+                    </div>
+                </div>
+
+                <div class="mySlides fade fifth">
+                    <div class="service-example">
+                        <img src="images/rocket.jpg" alt="ANALYTICS SERVICES" class="service-example-img">
+                        <h3 class="service-example-heading">ANALYTICS SERVICES</h3>
+                        <p class="service-example-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, ea.</p>
+                    </div>
+                </div>
+
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="prevSlide()">&#10094;</a>
+                <a class="next" onclick="nextSlide()">&#10095;</a>
+            </div>
+            <br>
+        </div>
+
+        <!-- ABOUT US -->
+
+        <div id="about">
+            <img id="about-img-1" src="images/rocket-2.png" alt="rocket-big">
+            <div id="about_content">
+                <h3 class="about-heading-1">ABOUT US</h3>
+                <h2 class="about-heading-2">We Bulid High-End
+                    <span class="text-yellow">Software Products</span> with a Unique Blend of
+                    <span class="text-yellow">Engineering</span> and
+                    <span class="text-yellow">Design</span>
+                </h2>
+                <p class="low-weight text-larger about-para">At Rocket Flyer, we consult, design, and develop hand-crafted enterprise applications for web and mobile
+                    platforms. Our focus is constantly on delivering innovative, yet simple and cost-effective software solutions
+                    that provide real business value to our customers. We pride ourselves on being able to interpret and
+                    anticipate our customers' needs and deliver a solution that exceeds their expectations.</p>
+            </div>
+        </div>
+
+        <!-- WHY US -->
+
+        <div id="whyus">
+            <div class="whyus-head">
+                <h1 class="whyus-heading">Why Choose Us?</h1>
+                <p class="whyus-subtitle text-larger">
+                    <strong>Designing and building top notch, custom digital products is challenging - and often, grueling work.
+                        Getting it just right is no easy feat.</strong>
+                </p>
+                <p class="whyus-subtitle2">Hence finding the right partner to work with is very important. So here are the top three reasons why you
+                    should hire us - </p>
+            </div>
+            <div class="inline">
+                <div class="part">
+                    <img src="images/why.png" alt="rocket" class="why-img">
+                    <div class="cool-blue">
+                        <p class="text-larger">Passion and Craftsmanship</p>
+                        <p class="text-smaller">Remarkable work is created only when the individual curating it loves what he’s doing. We ship a
+                            product only when we’re proud of the results</p>
+                    </div>
+                </div>
+                <div class="part">
+                    <img src="images/why.png" alt="rocket" class="why-img">
+                    <div class="cool-blue">
+                        <p class="text-larger">Rapid Development</p>
+                        <p class="text-smaller">We are a small, agile team of developers, focused on deadlines and delivery of quality products on
+                            schedule and beyond expectations</p>
+                    </div>
+                </div>
+                <div class="part">
+                    <img src="images/why.png" alt="rocket" class="why-img">
+                    <div class="cool-blue">
+                        <p class="text-larger">Satisfaction Guaranteed</p>
+                        <p class="text-smaller">We are so confident of our talent and the level of service that we provide, we include a satisfaction
+                            guaranteed clause in our agreements</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- GET IN TOUCH -->
+
+        <div id="getintouch">
+            <div id="getintouch-1">
+                <div id="pre-map">
+                    <div class="getintouch-1-1">
+                        <h1>Get In Touch</h1>
+                        <p>We're always on the lookout for likeminded people, whether you're a start-up company with big ideas
+                            or an established brand ready to make a big impact</p>
+                    </div>
+                    <div class="getintouch-1-2">
+                        <img src="images/rocket-3.png" alt="rocket">
+                    </div>
+                </div>
+            </div>
+            <div id="map">
+                <div id="map-1"></div>
+                <div id="map-2">
+                    <h3 class="text-larger">Contact Information</h3>
+                    <ul>
+                        <li>
+                            <h3>India</h3>
+                            <p>Gurgaon Nirvana Country, Gurgaon - 122018</p>
+                        </li>
+                        <br>
+                        <li>
+                            <h3>Indore</h3>
+                            <p>Indore XYZ Indore, Madhya Pradesh - 452010</p>
+                        </li>
+                    </ul>
+                    <br>
+                    <br>
+                    <span>+91 98910 96677</span>
+                    <br>
+                    <span>support@rocketflyer.in</span>
+                </div>
+            </div>
+            <div id="getintouch-2">.</div>
+        </div>
+    </div>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDUNbtArqyJdXw5ewEZIgo493_Lue49HUs&callback=initMap"
+        type="text/javascript"></script>
+    <script>
+        function initMap() {
+            var uluru = {
+                lat: 28.424745,
+                lng: 77.068214
+            };
+            var map = new google.maps.Map(document.getElementById('map-1'), {
+                zoom: 18,
+                center: uluru
+            });
+            var marker = new google.maps.Marker({
+                position: uluru,
+                map: map,
+                animation: google.maps.Animation.DROP,
+                title: "Rocket Flyer, Sector 51, Gurugram"
+            });
+            marker.addListener('click', function () {
+                if (marker.getAnimation() !== null) {
+                    marker.setAnimation(null);
+                } else {
+                    marker.setAnimation(google.maps.Animation.BOUNCE);
+                }
+            });
+            var infowindow = new google.maps.InfoWindow()
+            google.maps.event.addListener(marker, 'mouseover', (function (marker, content, infowindow) {
+                return function () {
+                    infowindow.setContent(marker.title);
+                    infowindow.open(map, marker);
+                };
+            })(marker, 'hi', infowindow));
+
+        }
+    </script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
